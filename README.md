@@ -1,41 +1,45 @@
 # Gestión de Usuarios en Consola
 
-Este proyecto es una aplicación de consola escrita en Python que permite la administración de usuarios con control de acceso por roles (Administrador y Usuario Estándar), utilizando una base de datos SQLite para almacenar y gestionar la información.
+Este proyecto es una aplicación de consola desarrollada en Python que permite la administración de usuarios con roles diferenciados (Administrador y Usuario Estándar). Utiliza SQLite como sistema de gestión de base de datos para almacenar los datos de forma persistente.
 
 ## Objetivo
 
-Desarrollar un programa de consola interactivo que permita:
+Desarrollar un sistema de gestión de usuarios que permita:
 
 - Registrar usuarios con validaciones.
-- Iniciar sesión con credenciales.
-- Controlar el acceso según el rol del usuario.
-- Gestionar usuarios (crear, eliminar, visualizar).
-- Brindar una experiencia intuitiva desde la terminal.
+- Iniciar sesión mediante credenciales almacenadas.
+- Diferenciar el acceso según el rol del usuario.
+- Gestionar usuarios desde una interfaz de consola intuitiva. 
 
 ## Funcionalidades principales
 
-- Autenticación de usuarios con contraseña segura.
-- Diferenciación de roles y permisos.
-- Gestión CRUD de usuarios (según permisos).
-- Menú interactivo en consola.
-- Persistencia de datos con SQLite.
+- Registro de usuarios con validación de contraseña.
+- Permisos diferenciados según rol:
+
+          -Administrador: acceso total (crear, ver, eliminar usuarios, etc.).
+
+        -Usuario estándar: acceso restringido (solo ver su información).
+
+- Control de acceso mediante menú interactivo.
+- Manejo de errores y mensajes informativos.
+- 
 
 ## Tecnologías usadas
 
 - Python 3.x
 - SQLite
-- Programación Orientada a Objetos
+- Entorno de desarrollo: Visual Studio Code
 - Git
 
 ## Estructura del proyecto
 
 ```
 gestion_usuarios_consola/
-├── src/ # Código fuente principal
-│ ├── database/ # Módulo para conexión y operaciones con SQLite
-│ ├── models/ # Clases como Usuario, Administrador
+├── src/ # Código fuente
+│ ├── database/ # Conexión y operaciones con SQLite
+│ ├── models/ # Clases: Usuario, Admin, etc.
 │ ├── utils/ # Funciones auxiliares, validaciones, etc.
-│ └── main.py # Punto de entrada del programa
-├── data/ # Base de datos SQLite
-├── README.md
+│ └── main.py # Archivo principal
+├── data/ # Archivo de base de datos SQLite
+├── README.md # Documentación del proyecto
 ```
