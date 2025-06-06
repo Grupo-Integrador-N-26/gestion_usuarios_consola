@@ -21,8 +21,7 @@ Desarrollar un sistema de gestión de usuarios que permita:
         -Usuario estándar: acceso restringido (solo ver su información).
 
 - Control de acceso mediante menú interactivo.
-- Manejo de errores y mensajes informativos.
-- 
+- Manejo de errores y mensajes informativos. 
 
 ## Tecnologías usadas
 
