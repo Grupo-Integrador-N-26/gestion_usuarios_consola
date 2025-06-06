@@ -21,8 +21,7 @@ Desarrollar un sistema de gestión de usuarios que permita:
         -Usuario estándar: acceso restringido (solo ver su información).
 
 - Control de acceso mediante menú interactivo.
-- Manejo de errores y mensajes informativos.
-- 
+- Manejo de errores y mensajes informativos. 
 
 ## Tecnologías usadas
 
@@ -43,3 +42,47 @@ gestion_usuarios_consola/
 ├── data/ # Archivo de base de datos SQLite
 ├── README.md # Documentación del proyecto
 ```
+## Cómo ejecutar
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Grupo-Integrador-N-26/gestion_usuarios_consola.git
+
+2. ```
+    cd gestion_usuarios_consola
+  
+3. Asegurarce de tener Python instalado:
+  ```
+  python --verision
+```
+4. Ejecuta el programa
+ ```
+  python src/main.py
+```
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas!
+
+1. Haz un fork del repositorio.
+
+2. Crea una nueva rama:
+``` bash
+    git checkout -b feacture/nueva-funcionalidad
+```
+3. Realiza tus cambios y haz un commit:
+``` bash
+    git commit -m "Agrega nueva funcionalidad"
+```
+4. Sube tus cambios 
+```bash 
+   git push origin feacture/nueva-funcionalidad
+```
+5. Abre un Pull Request.
+
+
+## 👤 Autor
+         Mayco David Ardiles
+
+- Organización: **Grupo Integrador Nº 26**         
+- Proyecto académico/práctico para el desarrollo de habilidades en programación, diseño de bases de datos y control de versiones.
