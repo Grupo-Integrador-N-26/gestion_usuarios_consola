@@ -42,6 +42,7 @@ gestion_usuarios_consola/
 ├── data/ # Archivo de base de datos SQLite
 ├── README.md # Documentación del proyecto
 ```
+
 ## Cómo ejecutar
 
 1. Clona el repositorio:
